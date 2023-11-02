@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Háttérszín */
+    color: #333; /* Szövegszín */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db; /* Fejléc háttere */
+    color: #fff; /* Fejléc szövegszíne */
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #2980b9; /* Navigáció háttere */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #34495e; /* Hover szín */
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #3498db; /* lábléc háttere */
+    color: #fff; /* lábléc szövegszíne */
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Egyéb stílusok itt */
+
+.icon-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icon-buttons a {
+    text-decoration: none;
+}
+
+.icon-buttons img {
+    width: 50px; /* Állítsd be az ikonok méretét az igényeid szerint */
+    height: 50px;
+}
