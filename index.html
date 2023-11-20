@@ -14,8 +14,10 @@
         <div class="container">
             <div class="subcontainer">
                 <div class="cookies">
-                    <P>This website uses cookies to ensure you get the best experience on our website!
-                    <a href="https://www.aboutcookies.org">More info</a></P>
+                    <p>
+                        This website uses cookies to ensure you get the best experience on our website!
+                        <a href="https://www.aboutcookies.org">More info</a>
+                    </p>
                     <button id="cookies-btn">Agree</button>
                 </div>
             </div>
@@ -26,12 +28,20 @@
         <a href="https://youtu.be/dQw4w9WgXcQ?si=nCURLhuobhaSnoUz"><img src="Enchanted_Diamond_Pickaxe.gif" alt="Csákány GIF"> </a>
     </header>
     <section>
+        <p>csabacs üzenete a csatlakozóknak:</p>
+        <audio id="audioPlayer" controls>
+            <source src="nagyonjo.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
         <h2>Tudni valók:</h2>
-        <p>Amikor beléptél a szerverbe, figyelmesen olvasd át a szabályzatot, mert a szerver 18+ -os! <br> A szerver alapból Community-re fekszik!
-        <br> Ha tudomásul vetted a szerver szabályzatot, akkor hitelesíteni kell magad hogy te ember vagy és nem discord bot.
-    <br>A Csákány szerveren magyarul, németűl és angolul is lehet beszélni.</p>
+        <p>
+            Amikor beléptél a szerverbe, figyelmesen olvasd át a szabályzatot, mert a szerver 18+ -os! <br> A szerver alapból Community-re fekszik!
+            <br> Ha tudomásul vetted a szerver szabályzatot, akkor hitelesíteni kell magad hogy te ember vagy és nem discord bot.
+            <br>A Csákány szerveren magyarul, németűl és angolul is lehet beszélni.
+        </p>
         <p>Itt vannak az elérhetőségek a szerverről: </p>
-        
+
         <div class="icon-buttons">
             <a href="https://www.youtube.com/channel/UC9L_WZQnDjeP_spyEAr03Dg">
                 <img src="free-youtube-logo-icon-2431-thumb.png" alt="Ikon 1">
@@ -48,6 +58,15 @@
                 <li>jrk025 (fejlesztő és programozó)</li>
             </ul>
         </div>
+        <h1 class="hirek">Hírek:</h1>
+        <h2>Discord szerver hírek:</h2>
+        <p>A szervert nemrég konfigoltuk, hogy egy kicsit láthatóbb legyen és szebb, átrendeztük a szobákat, új voice chat-et és csevegő szobát hoztunk létre, életbe lépett a 18+ (NSFW)
+        tartalom. <br /> A 18+ os szobát így fogod majd látni:</p>
+        <img src="18+ szoba kep.png" alt="Ikon 1"> <br /> <p>És majd a fő tulajoktól (kék név) tudod ezt a rangot kérni:</p>
+        <img src="rang jelzes.png" alt="Ikon 1">
+        <h2>Weboldal hírek:</h2>
+        <p>Mivel a weboldal még nem teljesen van kész, és a szerver se nagyon műkodik, így az új update-ek amik jönnek vagy a discord szerverre vagy a weboldalra, egy kb 2 óras késéssel
+        lesz kint a weboldalon <br />A többi nagyon fontos dolgot, a discord szerveren fogjuk kiirni, de a csatlakozóknak, kiirjuk az oldalra is, hogy könnyebb legyen a felhasználóknak.</p>
         <br>
         <br>
         <br>
@@ -75,9 +94,27 @@
         <br>
         <br>
         <br>
+        <br>
+        <a href="https://youtu.be/6XK4S8OQPuU?si=85tjP_2OuU0I2rtO"><img class="fasz" src="henry-stickmin.gif" alt="Csákány GIF"></a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </section>
     <footer>
-        <p>&copy; !Csákány Official! Copyright proctected!</p>
+        <p>&copy; !Csákány Official! Copyright protected!</p>
     </footer>
+
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("audioPlayer");
+            audio.play();
+        }
+
+        function toggleTheme() {
+            // Implement your theme toggling logic here
+        }
+    </script>
 </body>
 </html>
