@@ -1,59 +1,77 @@
+
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Háttérszín */
-    color: #333; /* Szövegszín */
+    background-color: #000000;
+    color: #333;
     margin: 0;
     padding: 0;
 }
 
+h1{
+    color:white;
+}
+
+p{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
 header {
-    background-color: #3498db; /* Fejléc háttere */
-    color: #fff; /* Fejléc szövegszíne */
+    background-color: #3498db;
+    color: #fff;
     text-align: center;
     padding: 1em 0;
 }
 
 nav {
-    background-color: #2980b9; /* Navigáció háttere */
+    background-color: #2980b9;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
 
-nav li {
-    float: left;
-}
+    nav li {
+        float: left;
+    }
 
-nav a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+    nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
 
-nav a:hover {
-    background-color: #34495e; /* Hover szín */
-}
+        nav a:hover {
+            background-color: #34495e;
+        }
 
 section {
     padding: 20px;
 }
 
 footer {
-    background-color: #3498db; /* lábléc háttere */
-    color: #fff; /* lábléc szövegszíne */
+    background-color: #3498db;
+    color: #fff;
     text-align: center;
     padding: 1em 0;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-/* Egyéb stílusok itt */
+
 
 .icon-buttons {
     display: flex;
@@ -61,79 +79,31 @@ footer {
     margin-top: 20px;
 }
 
-.icon-buttons a {
-    text-decoration: none;
-}
+    .icon-buttons a {
+        text-decoration: none;
+    }
 
-.icon-buttons img {
-    width: 50px; /* Állítsd be az ikonok méretét az igényeid szerint */
-    height: 50px;
-}
+    .icon-buttons img {
+        width: 50px;
+        height: 50px;
+    }
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.container{
+.container {
     width: 1600px;
     margin: auto;
 }
 
-.subcontainer{
+.subcontainer {
     width: 85%;
     margin: auto;
 }
 
-#cookies{
-    width:100%;
-    position: fixed;
-    bottom: 0;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1;
-    /* display: none; */
-}
-
-.cookies{
-    min-width: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px
-}
-
-.cookies a{
-    color: yellow;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-#cookies-btn{
-    border-radius: 5px;
-    padding: 8px 12px 8px 12px;
-    font-size: 1rem;
-    font-family: inherit;
-    cursor: pointer;
-    border: 3px solid white;
-    background-color: black;
-    color: white;
-}
-
-@media(max-width:1600px){
-    .container{
-        width: 100%;
-    }
-}
-
-@media(max-width:1024px){
-    .cookies{
-        padding:10px 0;
-    }
-}
-
-.fasz{
-    height:5%;
-    width:5% ;
+.fasz {
+    height: 5%;
+    width: 5%;
 }
