@@ -72,13 +72,14 @@ footer {
     }
 
 .container {
-    width: 100%;
-    padding: 0 20px; /* Belsõ tér a konténer körül */
+max-width: 1600px;
+width: 100%;
+margin: auto;
 }
 
 .subcontainer {
-    width: 100%;
-    padding: 0 20px; /* Belsõ tér a subkonténer körül */
+ width: 100%;
+ margin: auto;
 }
 
 .fasz {
