@@ -93,24 +93,7 @@ margin: auto;
     margin-right: auto;
 }
 
-@media only screen and (max-width: 768px) {
-    header {
-        padding: 1em 10px; 
-    }
-
-    nav a {
-        padding: 14px 8px; 
-    }
-
-    section {
-        padding: 10px; 
-    }
-
-    footer {
-        padding: 1em 10px; 
-    }
-}
 
 .gifesgif{
-    width:65%;
+    width:30%;
 }
