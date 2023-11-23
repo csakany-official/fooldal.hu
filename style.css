@@ -93,21 +93,24 @@ margin: auto;
     margin-right: auto;
 }
 
-/* Mobilnézet */
 @media only screen and (max-width: 768px) {
     header {
-        padding: 1em 10px; /* Kisebb belsõ tér a fejlécben mobil nézeten */
+        padding: 1em 10px; 
     }
 
     nav a {
-        padding: 14px 8px; /* Kisebb belsõ tér a navigációs linkekben mobil nézeten */
+        padding: 14px 8px; 
     }
 
     section {
-        padding: 10px; /* Kisebb belsõ tér a tartalom körül mobil nézeten */
+        padding: 10px; 
     }
 
     footer {
-        padding: 1em 10px; /* Kisebb belsõ tér a láblécben mobil nézeten */
+        padding: 1em 10px; 
     }
+}
+
+.gifesgif{
+    width:25%;
 }
