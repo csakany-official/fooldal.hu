@@ -1,5 +1,3 @@
-
-
 body {
     font-family: Arial, sans-serif;
     background-color: #000000;
@@ -8,19 +6,7 @@ body {
     padding: 0;
 }
 
-h1{
-    color:white;
-}
-
-p{
-    color: white;
-}
-
-h2{
-    color: white;
-}
-
-li{
+h1, p, h2, li {
     color: white;
 }
 
@@ -67,11 +53,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em 0;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
-
 
 .icon-buttons {
     display: flex;
@@ -88,19 +71,14 @@ footer {
         height: 50px;
     }
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
 .container {
-    width: 1600px;
-    margin: auto;
+    width: 100%;
+    padding: 0 20px; /* Belsõ tér a konténer körül */
 }
 
 .subcontainer {
-    width: 85%;
-    margin: auto;
+    width: 100%;
+    padding: 0 20px; /* Belsõ tér a subkonténer körül */
 }
 
 .fasz {
@@ -112,4 +90,23 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Mobilnézet */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 1em 10px; /* Kisebb belsõ tér a fejlécben mobil nézeten */
+    }
+
+    nav a {
+        padding: 14px 8px; /* Kisebb belsõ tér a navigációs linkekben mobil nézeten */
+    }
+
+    section {
+        padding: 10px; /* Kisebb belsõ tér a tartalom körül mobil nézeten */
+    }
+
+    footer {
+        padding: 1em 10px; /* Kisebb belsõ tér a láblécben mobil nézeten */
+    }
 }
