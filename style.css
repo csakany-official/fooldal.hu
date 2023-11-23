@@ -91,9 +91,10 @@ margin: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 375px;
 }
 
 
 .gifesgif{
-    width: 500px;
+    width: 440px;
 }
