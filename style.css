@@ -119,3 +119,23 @@ footer {
     padding: 10px; /* Opcionális: padding beállítása a szöveg körül */
     text-align: center; /* Opcionális: szöveg középre igazítása */
 }
+/* style.css */
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    transition: top 0.3s ease-in-out; /* Animáció a header elemre */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header.hidden {
+    top: -100px; 
+}
+.csakanyjel{
+    width: 102px;
+}
