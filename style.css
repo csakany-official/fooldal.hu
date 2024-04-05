@@ -10,6 +10,10 @@ h1, p, h2, li {
     color: white;
 }
 
+h1{
+    text-align: center;
+}
+
 header {
     background-color: #3498db;
     color: #fff;
@@ -85,6 +89,9 @@ margin: auto;
 .fasz {
     height: 5%;
     width: 5%;
+    display: block;
+    margin: 0 auto;
+
 }
 
 #disz {
@@ -138,4 +145,23 @@ header.hidden {
 }
 .csakanyjel{
     width: 74px;
+}
+
+.video{
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+}
+
+.discord{
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+}
+
+.div1{
+    background-color: #2980b9;
+}
+.main-members{
+    background-color: #2980b9;
 }
